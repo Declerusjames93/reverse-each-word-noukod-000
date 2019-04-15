@@ -1,7 +1,15 @@
 
-def reverse_each_word(string =  "Hello there, and how are you?" )
-string.each do |a|
-reverses =  a.reserve
-puts "#{reverses}"
+
+
+def reverse_each_word(string)
+  array = string.split(",") 
+  our_array = []
+  array.each do|string| 
+    our_array << string.reverse 
+  end
+  test_array.join(" ")
 end
-end
+
+
+  
+
