@@ -1,5 +1,6 @@
 
-def reverse_each_word(string = "Hello there, and how are you?")
-reverses = string.reverse
+def reverse_each_word(string )
+string.each do |a| 
+reverses =  a.reserve 
 puts "#{reverses}"
 end 
